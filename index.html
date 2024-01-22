@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Informazioni aggiuntive-->
+    <meta name="keywords" content="esercizio,boolean,programmare" />
+    <meta
+      name="description"
+      content="Sito che ti calcola il prezzo del biglietto"
+    />
+    <meta name="author" content="Emanuele Studente Classe 100" />
+    <!--Titolo-->
+    <title>Biglietto del treno</title>
+    <!--Icona della pagina-->
+    <link rel="icon" href="img/treno.jpg" type="image/jpg" />
+    <!--Collegamento del file HTML con il CSS-->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <!--Importazione del file Javascript-->
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <!--Contenitore-->
+    <main class="container">
+      <!--Box-->
+      <div class="box">
+        <!--Titolo della pagina-->
+        <h1>PREZZO DEL BIGLIETTO</h1>
+        <!--Sottotitolo della pagina-->
+        <h3>Ecco un bel sito che vi calcola il prezzo del biglietto!</h3>
+        <!--Tariffa-->
+        <p>La tariffa del biglietto è di 0.21 € al km.</p>
+        <!--Scontistiche-->
+        <p>C'è uno sconto del 20% per i minorenni.</p>
+        <p>C'è uno sconto del 40% per gli over 65.</p>
+      </div>
+      <!--Box-->
+      <div class="box">
+        <!--Prezzo pieno senza sconti-->
+        <p id="full-price"></p>
+        <!--Lo sconto riservato-->
+        <p id="discount"></p>
+        <!--Prezzo scontato-->
+        <p id="final-price"></p>
+      </div>
+    </main>
+  </body>
+</html>
